@@ -34,6 +34,11 @@ a {
   font-size: 16px;
 }
 
+/* Navbar link hover effect style here */
+ul a:hover {
+  color: #2da8f5;
+}
+
 /* Username button style here */
 .username {
   margin-right: 50px;
@@ -196,25 +201,26 @@ span {
     position: absolute;
     top: 0;
     right: 0;
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
-    background-color: black;
-}
+    background-color: #111827;
+  }
   
   /* Hamburger menu items list style here */
   .menu_items ul {
     position: absolute;
-    gap: 20px;
-    bottom: 200px;
+    top: 100px;
     right: 40px;
     display: flex;
-    list-style: none;
     flex-direction: column;
+    gap: 20px;
+    list-style: none;
   }
 
   /* Hambuger menu items link style here */
   .hamburger_menu a {
     color: white;
+    text-decoration: none;
   }
 
   /* Mobile logo style here */
@@ -269,6 +275,5 @@ span {
   .section_2 img {
     height: 230px;
     width: 250px;
-  }
-  
+  } 
 }
